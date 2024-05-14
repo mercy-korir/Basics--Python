@@ -1,0 +1,35 @@
+if True:
+    print('Conditional was true')
+language='Java'
+if language =='Python':
+    print('language is Python')
+elif language=='Java':
+    print('Language is Java')
+else:
+    print('No match')
+
+User='Admin'
+logged_in=False
+if User=='Admin' and logged_in:
+    print('Admin page')
+else:
+    print('Bad creds')
+if logged_in:
+    print('please log in')
+else:
+    print('welcome')
+a=[1,2,3]
+b=[1,2,3]
+print(a==b)
+print(a is b)
+print(id(a))
+print(id(b))
+conditional=False
+conditional=None
+if conditional :
+    print('Evaluated to true')
+else:
+    print('Evaluated to false')
+
+
+

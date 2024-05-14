@@ -1,0 +1,9 @@
+'For loop'
+courses=['History','Math','Physics','Compsci']
+for course in courses:
+    print (course)
+"Enumerate function- Index and Value"
+for index, course in enumerate (courses):
+    print (index , course)
+for index, course in enumerate(course,start=1):
+    print (index, course)

@@ -1,0 +1,28 @@
+def hello_func(greeting):
+    #pass
+#print(hello_func())
+   #return('Hello Function')
+#hello_func()
+#hello_func()
+#hello_func()
+#hello_func()
+#print(len('Test'))
+#print(hello_func().upper()
+  #return'{} funcion'.format('greeting')
+#print(hello_func('Hi'))
+
+#positional Keywords and arguments
+  #def hello_func(greeting_name='You'):
+    #return '{},{}'. Format ('greeting', 'name')
+#print(hello_func('Hi', name ='Corey'))
+
+  def  students_info (*args, **kwargs):
+    print('args')
+  print('kwargs')
+  students_info('Math','Art',name='John',age=22)
+  courses=['Math','Art']
+  info={'Name':'John','age':22}
+  students_info(*courses,**info)
+
+
+

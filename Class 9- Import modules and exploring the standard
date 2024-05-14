@@ -1,0 +1,31 @@
+import my_moudule as mm
+Courses=['History','Math','Physics','CompSci']
+index=mm.find_index(Courses,'Math')
+print(index)
+
+from my_moudule import find_index, test
+import sys
+Courses=['History','Math','Physics','CompSci']
+Index=find_index(Courses,'Math')
+print(sys.path)
+
+import random
+Courses=['History','Math','Physics','CompSci']
+random_Course=random.choice(Courses)
+print(random_Course)
+
+import math
+Courses=['History','Math','Physics','CompSci']
+rads=math.radians(90)
+print(rads)
+print(math.sin(rads))
+
+#Date Time Module
+import datetime
+import calendar
+Courses=['History','Math','Physics','CompSci']
+today=datetime.date.today()
+print(today)
+print(calendar.isleap(2020))
+
+

@@ -1,0 +1,7 @@
+Courses= ['History','Math','Physics','Compsci']
+nums=[1,5,2,4,3]
+sorted_courses=sorted(Courses)
+print(sum(nums))
+print(min(nums))
+print(max(nums))
+
